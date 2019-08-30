@@ -1,0 +1,39 @@
+2019-08-31 01:39:32,606 INFO 19932 [egg:logger] init all loggers with options: {"dir":"D:\\Web\\wwyyllaa\\egg_backend\\logs\\sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 01:39:32,644 INFO 19932 [egg-multipart] stream mode enable
+2019-08-31 01:39:33,090 INFO 19932 [egg-static] starting static serve /public/ -> D:\Web\wwyyllaa\egg_backend\app\public
+2019-08-31 01:39:33,093 INFO 19932 [egg-security] use methodnoallow middleware
+2019-08-31 01:39:33,094 INFO 19932 [egg-security] use noopen middleware
+2019-08-31 01:39:33,095 INFO 19932 [egg-security] use nosniff middleware
+2019-08-31 01:39:33,096 INFO 19932 [egg-security] use xssProtection middleware
+2019-08-31 01:39:33,097 INFO 19932 [egg-security] use xframe middleware
+2019-08-31 01:39:33,097 INFO 19932 [egg-security] use dta middleware
+2019-08-31 01:39:33,097 INFO 19932 [egg-security] compose 6 middlewares into one security middleware
+2019-08-31 01:39:33,109 INFO 19932 [egg:core] dump config after load, 5ms
+2019-08-31 01:39:33,148 INFO 19932 [egg-watcher:application] watcher start success
+2019-08-31 01:39:33,175 INFO 19932 [egg:core] dump config after ready, 5ms
+2019-08-31 01:44:34,907 INFO 20560 [egg:logger] init all loggers with options: {"dir":"D:\\Web\\wwyyllaa\\egg_backend\\logs\\sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 01:44:34,939 INFO 20560 [egg-multipart] stream mode enable
+2019-08-31 01:44:35,366 INFO 20560 [egg-static] starting static serve /public/ -> D:\Web\wwyyllaa\egg_backend\app\public
+2019-08-31 01:44:35,369 INFO 20560 [egg-security] use methodnoallow middleware
+2019-08-31 01:44:35,370 INFO 20560 [egg-security] use noopen middleware
+2019-08-31 01:44:35,372 INFO 20560 [egg-security] use nosniff middleware
+2019-08-31 01:44:35,372 INFO 20560 [egg-security] use xssProtection middleware
+2019-08-31 01:44:35,373 INFO 20560 [egg-security] use xframe middleware
+2019-08-31 01:44:35,374 INFO 20560 [egg-security] use dta middleware
+2019-08-31 01:44:35,374 INFO 20560 [egg-security] compose 6 middlewares into one security middleware
+2019-08-31 01:44:35,385 INFO 20560 [egg:core] dump config after load, 5ms
+2019-08-31 01:44:35,422 INFO 20560 [egg-watcher:application] watcher start success
+2019-08-31 01:44:35,449 INFO 20560 [egg:core] dump config after ready, 5ms
+2019-08-31 01:45:22,624 INFO 27852 [egg:logger] init all loggers with options: {"dir":"D:\\Web\\wwyyllaa\\egg_backend\\logs\\sequelize-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"sequelize-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 01:45:22,657 INFO 27852 [egg-multipart] stream mode enable
+2019-08-31 01:45:23,127 INFO 27852 [egg-static] starting static serve /public/ -> D:\Web\wwyyllaa\egg_backend\app\public
+2019-08-31 01:45:23,129 INFO 27852 [egg-security] use methodnoallow middleware
+2019-08-31 01:45:23,130 INFO 27852 [egg-security] use noopen middleware
+2019-08-31 01:45:23,132 INFO 27852 [egg-security] use nosniff middleware
+2019-08-31 01:45:23,134 INFO 27852 [egg-security] use xssProtection middleware
+2019-08-31 01:45:23,134 INFO 27852 [egg-security] use xframe middleware
+2019-08-31 01:45:23,135 INFO 27852 [egg-security] use dta middleware
+2019-08-31 01:45:23,135 INFO 27852 [egg-security] compose 6 middlewares into one security middleware
+2019-08-31 01:45:23,146 INFO 27852 [egg:core] dump config after load, 6ms
+2019-08-31 01:45:23,184 INFO 27852 [egg-watcher:application] watcher start success
+2019-08-31 01:45:23,208 INFO 27852 [egg:core] dump config after ready, 3ms

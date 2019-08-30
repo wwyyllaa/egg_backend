@@ -1,0 +1,36 @@
+2019-08-31 01:39:33,166 INFO 19932 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 01:39:44,351 WARN 19932 A client (::ffff:127.0.0.1:56972) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-08-31 01:39:44,353 WARN 19932 A client (::ffff:127.0.0.1:56972) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-08-31 01:44:35,440 INFO 20560 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 01:44:42,288 WARN 20560 A client (::ffff:127.0.0.1:57082) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-08-31 01:44:42,289 WARN 20560 A client (::ffff:127.0.0.1:57082) error [HPE_INVALID_METHOD] occurred: Parse Error
+2019-08-31 01:44:50,488 ERROR 20560 [-/127.0.0.1/-/6ms GET /goods] nodejs.TypeError: Cannot read property 'findAndCountAll' of undefined
+    at Goods.list (D:\Web\wwyyllaa\egg_backend\app\service\goods.js:7:33)
+    at GoodsController.index (D:\Web\wwyyllaa\egg_backend\app\controller\goods.js:12:40)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:45:18)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web\wwyyllaa\egg_backend\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 20560
+hostname: Wangyl
+
+2019-08-31 01:45:23,201 INFO 27852 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 01:45:34,934 INFO 27852 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `goods` AS `goods`;
+2019-08-31 01:45:34,938 INFO 27852 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `price`, `image`, `image1`, `image2`, `image3`, `description`, `remaining_stock`, `discount`, `produce_time`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` ORDER BY `goods`.`created_at` DESC, `goods`.`id` DESC LIMIT 0, 10;

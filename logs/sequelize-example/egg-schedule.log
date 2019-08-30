@@ -1,0 +1,15 @@
+2019-08-31 01:39:32,644 INFO 19932 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-31 01:39:32,644 INFO 19932 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-31 01:39:32,644 INFO 19932 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-31 01:39:33,183 INFO 31852 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 10226820ms at 2019-08-31 04:30:00.003
+2019-08-31 01:39:33,184 INFO 31852 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 80426817ms at 2019-09-01 00:00:00.001
+2019-08-31 01:39:33,184 INFO 31852 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 80427816ms at 2019-09-01 00:00:01.000
+2019-08-31 01:44:34,938 INFO 20560 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-31 01:44:34,938 INFO 20560 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-31 01:44:34,938 INFO 20560 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-31 01:44:35,460 INFO 22980 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 9924542ms at 2019-08-31 04:30:00.002
+2019-08-31 01:44:35,461 INFO 22980 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 80124540ms at 2019-09-01 00:00:00.001
+2019-08-31 01:44:35,461 INFO 22980 [Timer] D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 80125539ms at 2019-09-01 00:00:01.000
+2019-08-31 01:45:22,656 INFO 27852 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-31 01:45:22,656 INFO 27852 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-31 01:45:22,657 INFO 27852 [egg-schedule]: register schedule D:\Web\wwyyllaa\egg_backend\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
