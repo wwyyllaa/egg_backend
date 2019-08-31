@@ -34,3 +34,74 @@ hostname: Wangyl
 2019-08-31 01:45:23,201 INFO 27852 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
 2019-08-31 01:45:34,934 INFO 27852 [egg-sequelize](0ms) Executed (default): SELECT count(*) AS `count` FROM `goods` AS `goods`;
 2019-08-31 01:45:34,938 INFO 27852 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `price`, `image`, `image1`, `image2`, `image3`, `description`, `remaining_stock`, `discount`, `produce_time`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` ORDER BY `goods`.`created_at` DESC, `goods`.`id` DESC LIMIT 0, 10;
+2019-08-31 13:05:38,967 INFO 22080 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:05:40,803 INFO 24784 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:09:27,172 INFO 22096 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:09:50,394 INFO 26304 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:10:14,163 INFO 28992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:10:42,172 INFO 14848 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:10:43,111 ERROR 14848 [-/127.0.0.1/-/6ms GET /goods?offset=0&limit=1] nodejs.TypeError: ctx.cookies.forEach is not a function
+    at GoodsController.index (D:\Web\wwyyllaa\egg_backend\app\controller\goods.js:9:29)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:45:18)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web\wwyyllaa\egg_backend\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 14848
+hostname: Wangyl
+
+2019-08-31 13:10:55,391 INFO 31784 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:32:00,580 INFO 15640 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:32:44,403 INFO 13444 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:32:50,775 INFO 12348 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:32:53,852 ERROR 12348 [-/127.0.0.1/-/7ms GET /goods?offset=0&limit=1] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (D:\Web\wwyyllaa\egg_backend\node_modules\egg-cookies\lib\cookies.js:135:10)
+    at Cookies.get (D:\Web\wwyyllaa\egg_backend\node_modules\egg-cookies\lib\cookies.js:57:32)
+    at GoodsController.index (D:\Web\wwyyllaa\egg_backend\app\controller\goods.js:8:31)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:45:18)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web\wwyyllaa\egg_backend\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 12348
+hostname: Wangyl
+
+2019-08-31 13:33:14,440 INFO 3884 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:34:04,522 INFO 2272 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:36:17,209 INFO 10052 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:36:19,697 INFO 32552 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:37:29,423 INFO 2748 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-08-31 13:37:31,612 INFO 2748 [egg-sequelize](7ms) Executed (default): SELECT count(*) AS `count` FROM `goods` AS `goods`;
+2019-08-31 13:37:31,615 INFO 2748 [egg-sequelize](7ms) Executed (default): SELECT `id`, `name`, `price`, `image`, `image1`, `image2`, `image3`, `description`, `remaining_stock`, `discount`, `produce_time`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `goods` AS `goods` ORDER BY `goods`.`created_at` DESC, `goods`.`id` DESC LIMIT 0, 1;

@@ -25,3 +25,57 @@
 pid: 20560
 hostname: Wangyl
 
+2019-08-31 13:10:43,097 ERROR 14848 [-/127.0.0.1/-/6ms GET /goods?offset=0&limit=1] nodejs.TypeError: ctx.cookies.forEach is not a function
+    at GoodsController.index (D:\Web\wwyyllaa\egg_backend\app\controller\goods.js:9:29)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:45:18)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web\wwyyllaa\egg_backend\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 14848
+hostname: Wangyl
+
+2019-08-31 13:32:53,846 ERROR 12348 [-/127.0.0.1/-/7ms GET /goods?offset=0&limit=1] nodejs.TypeError: Cannot read property 'replace' of undefined
+    at getPattern (D:\Web\wwyyllaa\egg_backend\node_modules\egg-cookies\lib\cookies.js:135:10)
+    at Cookies.get (D:\Web\wwyyllaa\egg_backend\node_modules\egg-cookies\lib\cookies.js:57:32)
+    at GoodsController.index (D:\Web\wwyyllaa\egg_backend\app\controller\goods.js:8:31)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Web\wwyyllaa\egg_backend\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:45:18)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:44:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web\wwyyllaa\egg_backend\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web\wwyyllaa\egg_backend\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (D:\Web\wwyyllaa\egg_backend\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 12348
+hostname: Wangyl
+

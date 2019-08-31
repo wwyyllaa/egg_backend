@@ -5,6 +5,11 @@ const Controller = require('egg').Controller;
 class GoodsController extends Controller {
   async index() {
     const ctx = this.ctx;
+    let token = ctx.header.token;
+    if(!token || token!=='nicai'){
+      ctx.body = "無效";
+      return ;
+    }
     const query = {
       limit: ctx.helper.parseInt(ctx.query.limit),
       offset: ctx.helper.parseInt(ctx.query.offset),
